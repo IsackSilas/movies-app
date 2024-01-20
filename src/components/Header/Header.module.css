@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+    background-color: #000;
+    border-bottom: 2px solid #f44336;
+}
+
+.header span {
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: #f44336;
+}
+
+.header nav {
+    display: flex;
+    gap: 1vw;
+}
+
+.header a {
+    font-size: 1.5vw;
+    color: #fff;
+}

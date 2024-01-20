@@ -1,0 +1,21 @@
+.category {
+    display: flex;
+    flex-direction: column;
+    background-color: #191919; 
+}
+
+.category section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.category h1 {
+    font-size: 3vw;
+    padding-block: 10px;
+}
+
+.category img {
+    width: 18vw;
+}
