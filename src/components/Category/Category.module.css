@@ -12,10 +12,6 @@
 }
 
 .category h1 {
-    font-size: 3vw;
+    font-size: 3rem;
     padding-block: 10px;
-}
-
-.category img {
-    width: 18vw;
 }

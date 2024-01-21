@@ -4,15 +4,15 @@ import Watch from "./pages/Watch/Watch"
 import PageNotFound from "./pages/PageNotFound"
 
 function AppRoutes() {
-    return(
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<Home/>}></Route>
-                <Route path="/watch" element={<Watch/>}></Route>
-                <Route path="*" element={<PageNotFound/>}></Route>
-            </Routes>
-        </BrowserRouter>
-    )
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/watch" element={<Watch />}></Route>
+        <Route path="*" element={<PageNotFound />}></Route>
+      </Routes>
+    </BrowserRouter>
+  )
 }
 
 export default AppRoutes

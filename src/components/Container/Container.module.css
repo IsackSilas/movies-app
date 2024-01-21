@@ -1,6 +1,6 @@
 .container {
     width: 100%;
-    min-height: 84vh;
+    height: 100%;
     background-color: #191919;
     text-align: center;
     font-size: 2rem;
